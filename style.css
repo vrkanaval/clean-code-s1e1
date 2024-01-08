@@ -47,11 +47,13 @@
     padding: 0px;
   }
 
-  li, .todo-title {
+  li, 
+  .todo-title {
     list-style: none;
   }
 
-  input, .button {
+  input, 
+  .button {
     outline: none;
   }
 
