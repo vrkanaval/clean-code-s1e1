@@ -12,11 +12,11 @@
     text-align: right;
   }
 
-  .matrix-image {
+  .header__image {
     width: 100%;
   }
 
-  .more-info {
+  .header__more-info {
     font-family: fantasy, cursive;
   }
   
@@ -38,7 +38,7 @@
     flex-grow: 1;
   }
 
-  .task-row-wrapper {
+  .main__wrapper {
     display: flex;
   }
 
@@ -48,7 +48,7 @@
   }
 
   li, 
-  .main-title {
+  .main__title {
     list-style: none;
   }
 
@@ -72,8 +72,8 @@
   }
 
   /* Heading */
-  .todo-title,
-  .main-title {
+  
+.main__title {
     color: #333;
     font-weight: 700;
     font-size: 15px;
@@ -101,7 +101,7 @@
   }
   
   /* New Task */
-  .main-title {
+  .main__title {
     display: block;
     margin: 0 0 20px;
   }
